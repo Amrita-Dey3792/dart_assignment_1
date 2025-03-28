@@ -6,10 +6,8 @@ abstract class Vehicle {
   void move();
 
   // Non-abstract method to set speed
-  void setSpeed(int speed) {
-    _speed = speed;
-  }
-
+  set setSpeed(speed) => _speed = speed;
+  
   // Getter method to access speed
   int get speed => _speed;
 }
